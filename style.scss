@@ -1,0 +1,194 @@
+@mixin display($jus, $ali) {
+    display: flex;
+    justify-content: $jus;
+    align-items: $ali;
+}
+.header {
+    padding-top: 25px;
+    height: 52px;
+    width: 1400px;
+    margin: 0 auto;
+    @include display(space-between,center );
+    &_blockthree {
+        @include display(space-between,center );
+        &_but {
+            background: #18216D;
+            border-radius: 6px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 20px;
+            /* identical to box height, or 118% */
+
+
+            color: #FFFFFF;
+            width: 136px;
+            height: 52px;
+        }
+        &_p {
+            width: 58px;
+            height: 20px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 20px;
+            /* identical to box height, or 111% */
+
+
+            /* navy blue */
+
+            color: #18216D;
+            margin-right: 45px;
+        }
+    }   
+    &_blocktwo {
+        @include display(space-between, center );
+        &_href {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 20px;
+            /* identical to box height, or 111% */
+
+
+            /* navy blue */
+
+            color: #18216D;
+    }
+    }
+    &_blockone {
+        height: 32px;
+        @include display(space-between, center );
+        &_p {
+            margin-left: 7px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 20px;
+            /* identical to box height, or 100% */
+
+            text-align: center;
+
+            color: #18216D;
+        }  
+    }
+    &_blocktwo {
+        width: 507px;
+        height: 20px;
+    }
+    &_blockthree {
+        height: 52px;
+    }
+}
+.topheader {
+    height: 520px;
+    width: 1100px;
+    margin: 145px auto 0 auto;
+    @include display(space-between, normal);
+    &_blockone {
+        width: 498px;
+        &_title {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 60px;
+            color: #18216D;
+            margin: 80px 0 0 0;
+        }
+        &_text {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 28px;
+            color: #18216D;
+            margin: 16px 0 0 0;
+        }
+        &_but {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 21px;
+            color: #18216D;
+            width: 180px;
+            height: 66px;
+            background: #00ECD0;
+            border-radius: 6px;
+            border: none;
+            margin: 32px 0 0 0;
+
+        }
+    }
+}
+.collab {
+    height: 235px;
+    width: 1100px;
+    margin: 0 auto;
+    background: rgb(0, 110, 255);
+    &_items {
+        height: 150px;
+        width: 1100px;
+        @include display(space-between, normal);
+        &_blockone {
+            width: 494px;
+            height: 100%;
+            background: #00ECD0;
+            &_p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 50px;
+                color: #18216D;
+
+            }
+        }
+        &_blocktwo {
+            width: 326px;
+            height: 100%;
+            background: yellow;
+            @include display(space-between,normal );
+            &_subblock1 {
+                background: aqua;
+                &_p {   
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 60px;
+                    line-height: 70px;
+                    letter-spacing: -1px;
+                    color: #18216D;
+                    text-align: center;
+                }
+                &_padd {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #18216D;
+
+                }
+                &_harts {
+                    @include display(center,center );
+                    column-gap: 5px;
+                    margin: 0 auto;
+                    &_svg {
+                        height: 16px;
+                        width: 14px;
+                    }
+                }
+            }
+            &_subblock2 {
+                background: #00ECD0;
+                
+            }
+        }
+    }
+}
