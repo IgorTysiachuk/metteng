@@ -6,7 +6,7 @@
 .header {
     padding-top: 25px;
     height: 52px;
-    width: 1400px;
+    width: 1366px;
     margin: 0 auto;
     @include display(space-between,center );
     &_blockthree {
@@ -130,7 +130,13 @@
     height: 235px;
     width: 1100px;
     margin: 0 auto;
-    background: rgb(0, 110, 255);
+    margin-top: 130px;
+    &_down {
+        height: 85px;
+        width: 95%;
+        margin: 0 auto;
+        @include display(space-between, end)
+    }
     &_items {
         height: 150px;
         width: 1100px;
@@ -138,7 +144,6 @@
         &_blockone {
             width: 494px;
             height: 100%;
-            background: #00ECD0;
             &_p {
                 font-family: 'Inter';
                 font-style: normal;
@@ -152,10 +157,8 @@
         &_blocktwo {
             width: 326px;
             height: 100%;
-            background: yellow;
             @include display(space-between,normal );
             &_subblock1 {
-                background: aqua;
                 &_p {   
                     font-family: 'Inter';
                     font-style: normal;
@@ -164,7 +167,6 @@
                     line-height: 70px;
                     letter-spacing: -1px;
                     color: #18216D;
-                    text-align: center;
                 }
                 &_padd {
                     font-family: 'Inter';
@@ -176,19 +178,159 @@
 
                 }
                 &_harts {
-                    @include display(center,center );
                     column-gap: 5px;
                     margin: 0 auto;
+                    @include display(start, normal);
+                    padding-left:3px ;
                     &_svg {
                         height: 16px;
                         width: 14px;
+
                     }
                 }
             }
             &_subblock2 {
-                background: #00ECD0;
+                width: 140px;
                 
             }
         }
+    }
+}
+.addtext {
+    width: 542px;
+    margin: 130px auto 0 auto;
+    &_p1 {
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 64px;
+        /* identical to box height, or 133% */
+
+        letter-spacing: -1px;
+        text-transform: capitalize;
+
+        /* navy blue */
+
+        color: #18216D;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    &_p2 {
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        /* or 188% */
+        
+        text-align: center;
+        
+        /* navy blue */
+        
+        color: #18216D;
+        text-align: center;
+    }
+}
+.threeblocks {
+    height: 267px;
+    margin: 48px auto 0 auto;
+    @include display(center,normal );
+    column-gap: 80px;
+    &_block {
+        width: 320px;
+        &_p1 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            color: #18216D;
+            margin-top: 26px;
+
+        }
+        &_p2 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #18216D;
+            opacity: 0.6;
+            margin-top: 13px;
+
+        }
+        &_p3 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 16px;
+            color: #18216D;
+            margin-top: 26px;
+        }
+    }
+}
+.bigblock {
+    background: #005eec26;
+    width: 1366px;
+    height: 593px;
+    margin: 130px auto 0 auto;
+    @include display(center, center );
+    &_div {
+        width: 1380px;
+        height: 437px;
+        @include display(center,normal );
+        column-gap: 90px;
+        &_block1 {
+            width: 487px;
+            height: 437px;
+            &_p1 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 48px;
+                color: #18216D;
+                width: 471px;
+                margin-top: 60px;
+            }
+            &_p2 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #18216D;
+                opacity: 0.8;
+                width: 487px;
+                margin-top: 15px;
+            }
+            &_but {
+                width: 160px;
+                height: 52px;
+                background: #005FEC;
+                border-radius: 6px;
+                border: none;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 21px;
+                color: #FFFFFF;
+                margin-top: 40px;
+            }
+        }
+    }
+}
+.abs {
+    &_img {
+        background-image: url(./img/man.png);
+        border-radius: 20px;
+        width: 400px;
+        height: 600px;
+        background: #005FEC;
     }
 }

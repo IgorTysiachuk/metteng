@@ -1,7 +1,7 @@
 .header {
   padding-top: 25px;
   height: 52px;
-  width: 1400px;
+  width: 1366px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -126,7 +126,15 @@
   height: 235px;
   width: 1100px;
   margin: 0 auto;
-  background: rgb(0, 110, 255);
+  margin-top: 130px;
+}
+.collab_down {
+  height: 85px;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
 }
 .collab_items {
   height: 150px;
@@ -138,7 +146,6 @@
 .collab_items_blockone {
   width: 494px;
   height: 100%;
-  background: #00ECD0;
 }
 .collab_items_blockone_p {
   font-family: "Inter";
@@ -151,13 +158,9 @@
 .collab_items_blocktwo {
   width: 326px;
   height: 100%;
-  background: yellow;
   display: flex;
   justify-content: space-between;
   align-items: normal;
-}
-.collab_items_blocktwo_subblock1 {
-  background: aqua;
 }
 .collab_items_blocktwo_subblock1_p {
   font-family: "Inter";
@@ -167,7 +170,6 @@
   line-height: 70px;
   letter-spacing: -1px;
   color: #18216D;
-  text-align: center;
 }
 .collab_items_blocktwo_subblock1_padd {
   font-family: "Inter";
@@ -178,17 +180,156 @@
   color: #18216D;
 }
 .collab_items_blocktwo_subblock1_harts {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   -moz-column-gap: 5px;
        column-gap: 5px;
   margin: 0 auto;
+  display: flex;
+  justify-content: start;
+  align-items: normal;
+  padding-left: 3px;
 }
 .collab_items_blocktwo_subblock1_harts_svg {
   height: 16px;
   width: 14px;
 }
 .collab_items_blocktwo_subblock2 {
-  background: #00ECD0;
+  width: 140px;
+}
+
+.addtext {
+  width: 542px;
+  margin: 130px auto 0 auto;
+}
+.addtext_p1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height, or 133% */
+  letter-spacing: -1px;
+  text-transform: capitalize;
+  /* navy blue */
+  color: #18216D;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.addtext_p2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 188% */
+  text-align: center;
+  /* navy blue */
+  color: #18216D;
+  text-align: center;
+}
+
+.threeblocks {
+  height: 267px;
+  margin: 48px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+}
+.threeblocks_block {
+  width: 320px;
+}
+.threeblocks_block_p1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #18216D;
+  margin-top: 26px;
+}
+.threeblocks_block_p2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #18216D;
+  opacity: 0.6;
+  margin-top: 13px;
+}
+.threeblocks_block_p3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 16px;
+  color: #18216D;
+  margin-top: 26px;
+}
+
+.bigblock {
+  background: rgba(0, 94, 236, 0.1490196078);
+  width: 1366px;
+  height: 593px;
+  margin: 130px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bigblock_div {
+  width: 1380px;
+  height: 437px;
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+  -moz-column-gap: 90px;
+       column-gap: 90px;
+}
+.bigblock_div_block1 {
+  width: 487px;
+  height: 437px;
+}
+.bigblock_div_block1_p1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  color: #18216D;
+  width: 471px;
+  margin-top: 60px;
+}
+.bigblock_div_block1_p2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #18216D;
+  opacity: 0.8;
+  width: 487px;
+  margin-top: 15px;
+}
+.bigblock_div_block1_but {
+  width: 160px;
+  height: 52px;
+  background: #005FEC;
+  border-radius: 6px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  color: #FFFFFF;
+  margin-top: 40px;
+}
+
+.abs_img {
+  background-image: url(./img/man.png);
+  border-radius: 20px;
+  width: 400px;
+  height: 600px;
+  background: #005FEC;
 }/*# sourceMappingURL=style.css.map */
