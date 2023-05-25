@@ -325,12 +325,108 @@
         }
     }
 }
+@mixin pos($left) {
+    position: absolute;
+    left: $left;
+}
+.cob {
+    &_1 {
+        @include pos(25px)
+    }
+    &_2 {
+        @include pos(50px)
+    }
+    &_3 {
+        @include pos(75px)
+    }
+    &_4 {
+        @include pos(100px)
+    }
+    &_0 {
+        @include pos(0px)
+    }
+
+}
 .abs {
+    width: 572px;
+    margin: 0 auto;
+    height: 578px;
+    position: relative;
+    &_users {
+        position: absolute;
+        width: 184px;
+        height: 150px;
+        left: 390px;
+        top: 357px;        
+
+
+        background: #ffffff;
+        box-shadow: -4px 8px 20px rgba(24, 33, 109, 0.05);
+        border-radius: 6px;
+        &_text {
+            margin-top: 18px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 26px;
+            color: #18216D;
+            text-align: center;
+        }
+        &_p {
+            display: block;
+            width: 100px;
+            height: 30px;
+            
+            background: #DAE9FF;
+            border-radius: 4px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            color: #005FEC;
+            border: none;
+            margin: 16px auto 0 auto;
+
+        }
+
+        
+        &_fiveuser {
+            position: relative;
+            display: flex;
+            width: 137.5px;
+            height: 36px;
+            margin: 8px auto 0 auto;
+            &_item {
+                border: 2.5px solid #FFFFFF;
+                width: 36px;
+                height: 36px;
+                border-radius: 50%;
+            }
+
+        }
+    }
     &_img {
-        background-image: url(./img/man.png);
-        border-radius: 20px;
-        width: 400px;
-        height: 600px;
-        background: #005FEC;
+        display: block;
+        margin: 0 auto;
+    }
+    &_balls {
+        top: 371px;
+        left: 34px;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 122px;
+        height: 118px;
+        z-index: -1;
+        &_item {
+            width: 6px;
+            height: 6px;
+            background: #005eec5b;
+            border-radius: 50%;
+        }
     }
 }
