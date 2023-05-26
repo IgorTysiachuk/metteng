@@ -349,7 +349,6 @@
 
 .abs {
   width: 572px;
-  margin: 0 auto;
   height: 578px;
   position: relative;
 }
@@ -421,4 +420,137 @@
   height: 6px;
   background: rgba(0, 94, 236, 0.3568627451);
   border-radius: 50%;
+}
+
+.group {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 95px;
+       column-gap: 95px;
+  margin-top: 130px;
+}
+
+.abc {
+  width: 590px;
+}
+.abc_btn {
+  width: 164px;
+  height: 54px;
+  background: #005FEC;
+  border-radius: 6px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  border: none;
+  margin-top: 52px;
+}
+.abc_p1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  color: #18216D;
+}
+.abc_p2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #18216D;
+  margin: 16px 0 0 0;
+}
+.abc_div {
+  width: 310px;
+  margin: 31px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+.abc_div_li {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.abc_div_li_p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #18216D;
+}
+.abc_div_li_input {
+  word-wrap: break-word;
+}
+
+.sometext {
+  width: 542px;
+  margin: 0 auto;
+  margin-top: 131px;
+}
+.sometext_p1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+  color: #18216D;
+  text-align: center;
+}
+.sometext_p2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #18216D;
+  text-align: center;
+  margin-top: 20px;
+}
+.sometext_div {
+  width: 272px;
+  height: 60px;
+  background: rgba(0, 94, 236, 0.0666666667);
+  border-radius: 6px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.sometext_div_btn1 {
+  width: 135px;
+  height: 48px;
+  background: #FFFFFF;
+  border-radius: 6px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 17px;
+  color: #005FEC;
+}
+.sometext_div_btn2 {
+  width: 125px;
+  height: 48px;
+  background: none;
+  border-radius: 6px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 17px;
+  color: #18216D;
 }/*# sourceMappingURL=style.css.map */
