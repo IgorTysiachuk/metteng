@@ -553,4 +553,175 @@
   font-size: 17px;
   line-height: 17px;
   color: #18216D;
+}
+
+.margincard {
+  margin-left: 40px;
+}
+
+.cardthree {
+  height: 620px;
+  margin: 80px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 45px;
+       column-gap: 45px;
+}
+.cardthree_card {
+  height: 620px;
+  width: 355px;
+  border: 1px solid rgba(35, 38, 41, 0.1294117647);
+  border-radius: 10px;
+}
+.cardthree_card_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 48px;
+  color: #18216D;
+  margin-top: 22px;
+}
+.cardthree_card_addtext {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  color: #18216D;
+}
+.cardthree_card_line {
+  height: 1px;
+  background-color: rgba(35, 38, 41, 0.1294117647);
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.cardthree_card_ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.cardthree_card_ul_li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+}
+.cardthree_card_ul_li_p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #18216D;
+}
+.cardthree_card_btn {
+  width: 181px;
+  height: 52px;
+  background: rgba(0, 94, 236, 0.0470588235);
+  border-radius: 6px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #18216D;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.pcolor {
+  color: rgba(24, 32, 109, 0.2745098039);
+}
+
+.btncolor {
+  background: #005FEC;
+  color: #FFFFFF;
+}
+
+.spancolor {
+  color: #6D6D6D;
+}
+
+.humanblock {
+  width: 1366px;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 130px auto 0 auto;
+  background: #FAFAFA;
+}
+.humanblock_elementone {
+  width: 614px;
+}
+.humanblock_elementone_p1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  color: #18216D;
+  margin-bottom: 55px;
+}
+.humanblock_elementone_p2 {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 44px;
+  color: rgba(24, 32, 109, 0.8078431373);
+  margin-bottom: 33px;
+}
+.humanblock_elementone_p3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 26px;
+  color: #18216D;
+  margin-bottom: 6px;
+}
+.humanblock_elementone_p4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(24, 32, 109, 0.3843137255);
+}
+
+.footer_default {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.footer_default_logodiv {
+  width: 248px;
+  background-color: yellow;
+}
+.footer_default_logodiv_p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  /* navy blue */
+  color: #18216D;
+  opacity: 0.9;
+}
+.footer_default_logodiv_download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_default_logodiv_download_play {
+  height: 30px;
+  width: 100px;
+  background: #18216D;
 }/*# sourceMappingURL=style.css.map */

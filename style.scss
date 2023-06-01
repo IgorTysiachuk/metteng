@@ -557,4 +557,173 @@
         }
     }
 }
+.margincard {
+    margin-left: 40px;
+}
+.cardthree {
+    height: 620px;
+    margin: 80px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    column-gap: 45px;
+    &_card {
+        height: 620px;
+        width: 355px;
+        border: 1px solid #23262921;
+        border-radius: 10px;
+        &_title {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 48px;
+            color: #18216D;
+            margin-top: 22px;
 
+        }
+        &_addtext {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 48px;
+            color: #18216D;
+        }
+        &_line {
+            height: 1px;
+            background-color: #23262921;
+            width: 100%;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        &_ul {
+            display: flex;
+            flex-direction: column;
+            row-gap: 16px;
+            &_li {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                column-gap: 12px;
+                &_p {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 24px;
+                    color: #18216D;
+                }
+            }
+        }
+        &_btn {
+            width: 181px;
+            height: 52px;
+            background: #005eec0c;
+            border-radius: 6px;
+            border: none;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #18216D;
+            margin-top: 40px;
+            cursor: pointer;
+        }
+    }
+}
+.pcolor {
+    color: #18206d46;
+} 
+.btncolor  {
+    background: #005FEC;
+    color: #FFFFFF;
+}
+.spancolor {
+    color:#6D6D6D ;  
+}
+.humanblock {
+    width: 1366px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 130px auto 0 auto;
+    background: #FAFAFA;
+    &_elementone {
+        width: 614px;
+        &_p1 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 48px;
+            color: #18216D;
+            margin-bottom: 55px;
+        }
+        &_p2 {
+            font-family: 'Inter';
+            font-style: italic;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 44px;
+            color: #18206dce;
+            margin-bottom: 33px;
+
+        }
+        &_p3 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 26px;
+            color: #18216D;
+            margin-bottom: 6px;
+        }
+        &_p4 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #18206d62;
+        }
+    }
+}
+.footer {
+    &_default{
+        
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        margin-bottom: 100px;
+        &_logodiv {
+            width: 248px;
+            background-color: yellow;
+            &_p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                /* or 162% */
+
+
+                /* navy blue */
+
+                color: #18216D;
+
+                opacity: 0.9;
+            }
+            &_download {
+                @include display(center, center);
+                &_play {
+                    height: 30px;
+                    width: 100px;
+                    background: #18216D;
+
+                }
+            }
+        }
+    }   
+}
