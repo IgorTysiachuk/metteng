@@ -692,7 +692,7 @@
 }
 .footer {
     &_default{
-        
+        background-color: #005FEC;
         display: flex;
         margin: 0 auto;
         justify-content: center;
@@ -716,11 +716,59 @@
                 opacity: 0.9;
             }
             &_download {
-                @include display(center, center);
+                @include display(start, center);
+                column-gap: 12px;
                 &_play {
                     height: 30px;
                     width: 100px;
                     background: #18216D;
+                    display: flex;
+                    justify-content: start ;
+                    align-items: center;
+                    position: relative;
+                    border-radius: 6px;
+
+                    &_logo {
+                        height: 19.161170959472656px;
+                        width: 15.589412689208984px;
+                        position: absolute;
+                        top: 0px;
+                        left: 0px;
+                        top: 5px;
+                        left: 8px;
+
+
+                    }
+                    &_text {
+
+                    
+                        display: flex;
+                        flex-wrap: wrap;
+                        position: relative;
+                        &_text1 {
+                            height: 5.9px;
+                            width: 59.0922737121582px;
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            top: -9px;
+                            left: 16px;
+                            top: -9px;
+                            left: 33px;
+
+                        }
+                        &_text2 {
+                            height: 13.06568717956543px;
+                            width: 59.88124084472656px;
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            top: -2px;
+                            left: 16px;
+                            top: -2px;
+                            left: 32px;
+                        }
+                    }
 
                 }
             }

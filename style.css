@@ -695,6 +695,7 @@
 }
 
 .footer_default {
+  background-color: #005FEC;
   display: flex;
   margin: 0 auto;
   justify-content: center;
@@ -717,11 +718,54 @@
 }
 .footer_default_logodiv_download {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
 }
 .footer_default_logodiv_download_play {
   height: 30px;
   width: 100px;
   background: #18216D;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  border-radius: 6px;
+}
+.footer_default_logodiv_download_play_logo {
+  height: 19.1611709595px;
+  width: 15.5894126892px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  top: 5px;
+  left: 8px;
+}
+.footer_default_logodiv_download_play_text {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.footer_default_logodiv_download_play_text_text1 {
+  height: 5.9px;
+  width: 59.0922737122px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  top: -9px;
+  left: 16px;
+  top: -9px;
+  left: 33px;
+}
+.footer_default_logodiv_download_play_text_text2 {
+  height: 13.0656871796px;
+  width: 59.8812408447px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  top: -2px;
+  left: 16px;
+  top: -2px;
+  left: 32px;
 }/*# sourceMappingURL=style.css.map */
